@@ -6,6 +6,8 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local function task()
     local Event = game:GetService("ReplicatedStorage").Remotes.Dumbbell
     Event:FireServer()
+    local Event = game:GetService("ReplicatedStorage").Remotes.Dumbbell
+    Event:FireServer()
 end
 
 
