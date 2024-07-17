@@ -1,6 +1,6 @@
 --GAMEPASS --STR
 
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local ReplicatedStorage = game:GetService("ReplicatedStorage") 
 
 
 local function task()
@@ -11,7 +11,7 @@ end
 
 while true do
 
-    for i = 1, 2.3 do
+    for i = 1, 1.2 do
         task()
         wait()  
     end
