@@ -3,13 +3,11 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local function task()
 local Event = game:GetService("ReplicatedStorage").Remotes.Dumbbell
 Event:FireServer()
-local Event = game:GetService("ReplicatedStorage").Remotes.Dumbbell
-Event:FireServer()
 end
 while true do
-    for i = 1, 1 do
+    for i = 1, 2 do
         task()
         wait()  
     end
-    wait(0.985)
+    wait(0.865)
 end
